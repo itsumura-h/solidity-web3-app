@@ -1,0 +1,28 @@
+import { ethers } from 'hardhat'
+import { BigNumber } from 'ethers';
+
+const main = async () => {
+  const [deployer] = await ethers.getSigners();
+  const accountBalance = await deployer.getBalance() as BigNumber;
+
+  console.log("Deploying contracts with account: ", deployer.address);
+  console.log("Account balance: ", accountBalance.toString());
+
+  const waveContractFactory = await ethers.getContractFactory("WavePortal");
+  const waveContract = await waveContractFactory.deploy();
+  await waveContract.deployed();
+
+  console.log("WavePortal address: ", waveContract.address);
+}
+
+const runMain = async () => {
+  try {
+    await main();
+    process.exit(0);
+  } catch (error) {
+    console.log(error);
+    process.exit(1);
+  }
+};
+
+runMain();

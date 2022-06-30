@@ -1,0 +1,587 @@
+{
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "getTotalWaves",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "wave",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": {
+    "object": "0x608060405234801561001057600080fd5b5061004a6040518060400160405280600e81526020016d48656c6c6f20457468657265756d60901b81525061004f60201b6100f01760201c565b61010f565b6100968160405160240161006391906100ba565b60408051601f198184030181529190526020810180516001600160e01b0390811663104c13eb60e21b1790915261009916565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b600060208083528351808285015260005b818110156100e7578581018301518582016040015282016100cb565b818111156100f9576000604083870101525b50601f01601f1916929092016040019392505050565b6102f08061011e6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80636fe15b441461003b5780639a2cdc0814610045575b600080fd5b61004361005f565b005b61004d6100a6565b60405190815260200160405180910390f35b600160008082825461007191906101e1565b909155505060408051808201909152600d81526c2573206861732077617665642160981b60208201526100a49033610136565b565b60006100e96040518060400160405280601781526020017f5765206861766520256420746f74616c2077617665732100000000000000000081525060005461017f565b5060005490565b610133816040516024016101049190610254565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b1790526101c0565b50565b61017b828260405160240161014c92919061026e565b60408051601f198184030181529190526020810180516001600160e01b031663319af33360e01b1790526101c0565b5050565b61017b8282604051602401610195929190610298565b60408051601f198184030181529190526020810180516001600160e01b03166309710a9d60e41b1790525b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b6000821982111561020257634e487b7160e01b600052601160045260246000fd5b500190565b6000815180845260005b8181101561022d57602081850181015186830182015201610211565b8181111561023f576000602083870101525b50601f01601f19169290920160200192915050565b6020815260006102676020830184610207565b9392505050565b6040815260006102816040830185610207565b905060018060a01b03831660208301529392505050565b6040815260006102ab6040830185610207565b9050826020830152939250505056fea2646970667358221220f2bb5fa7baaf08b92f3b0461f6e6415b745461ccfd56bb13fb77059119620dfa64736f6c634300080f0033",
+    "sourceMap": "96:346:0:-:0;;;145:54;;;;;;;;;;165:29;;;;;;;;;;;;;;-1:-1:-1;;;165:29:0;;;:11;;;;;:29;;:::i;:::-;96:346;;5054:112:1;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;;;-1:-1:-1;;;5119:42:1;;;;5103:15;:59;:::i;:::-;5054:112;:::o;176:288::-;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;176:288;:::o;14:597:2:-;126:4;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:1;294:140;308:6;305:1;302:13;294:140;;;403:14;;;399:23;;393:30;369:17;;;388:2;365:26;358:66;323:10;;294:140;;;452:6;449:1;446:13;443:91;;;522:1;517:2;508:6;497:9;493:22;489:31;482:42;443:91;-1:-1:-1;595:2:2;574:15;-1:-1:-1;;570:29:2;555:45;;;;602:2;551:54;;14:597;-1:-1:-1;;;14:597:2:o;:::-;96:346:0;;;;;;",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x608060405234801561001057600080fd5b50600436106100365760003560e01c80636fe15b441461003b5780639a2cdc0814610045575b600080fd5b61004361005f565b005b61004d6100a6565b60405190815260200160405180910390f35b600160008082825461007191906101e1565b909155505060408051808201909152600d81526c2573206861732077617665642160981b60208201526100a49033610136565b565b60006100e96040518060400160405280601781526020017f5765206861766520256420746f74616c2077617665732100000000000000000081525060005461017f565b5060005490565b610133816040516024016101049190610254565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b1790526101c0565b50565b61017b828260405160240161014c92919061026e565b60408051601f198184030181529190526020810180516001600160e01b031663319af33360e01b1790526101c0565b5050565b61017b8282604051602401610195929190610298565b60408051601f198184030181529190526020810180516001600160e01b03166309710a9d60e41b1790525b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b6000821982111561020257634e487b7160e01b600052601160045260246000fd5b500190565b6000815180845260005b8181101561022d57602081850181015186830182015201610211565b8181111561023f576000602083870101525b50601f01601f19169290920160200192915050565b6020815260006102676020830184610207565b9392505050565b6040815260006102816040830185610207565b905060018060a01b03831660208301529392505050565b6040815260006102ab6040830185610207565b9050826020830152939250505056fea2646970667358221220f2bb5fa7baaf08b92f3b0461f6e6415b745461ccfd56bb13fb77059119620dfa64736f6c634300080f0033",
+    "sourceMap": "96:346:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;203:94;;;:::i;:::-;;301:139;;;:::i;:::-;;;160:25:2;;;148:2;133:18;301:139:0;;;;;;;203:94;245:1;231:10;;:15;;;;;;;:::i;:::-;;;;-1:-1:-1;;252:40:0;;;;;;;;;;;;-1:-1:-1;;;252:40:0;;;;;;281:10;252:11;:40::i;:::-;203:94::o;301:139::-;347:7;362:50;;;;;;;;;;;;;;;;;;401:10;;362:11;:50::i;:::-;-1:-1:-1;425:10:0;;;301:139::o;5054:112:1:-;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;-1:-1:-1;;;5119:42:1;;;5103:15;:59::i;:::-;5054:112;:::o;6298:136::-;6359:71;6422:2;6426;6375:54;;;;;;;;;:::i;:::-;;;;-1:-1:-1;;6375:54:1;;;;;;;;;;;;;;-1:-1:-1;;;;;6375:54:1;-1:-1:-1;;;6375:54:1;;;6359:15;:71::i;:::-;6298:136;;:::o;5888:130::-;5946:68;6006:2;6010;5962:51;;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5962:51:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5962:51:1;-1:-1:-1;;;5962:51:1;;;176:288;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;176:288;:::o;196:225:2:-;236:3;267:1;263:6;260:1;257:13;254:136;;;312:10;307:3;303:20;300:1;293:31;347:4;344:1;337:15;375:4;372:1;365:15;254:136;-1:-1:-1;406:9:2;;196:225::o;426:472::-;468:3;506:5;500:12;533:6;528:3;521:19;558:1;568:162;582:6;579:1;576:13;568:162;;;644:4;700:13;;;696:22;;690:29;672:11;;;668:20;;661:59;597:12;568:162;;;748:6;745:1;742:13;739:87;;;814:1;807:4;798:6;793:3;789:16;785:27;778:38;739:87;-1:-1:-1;880:2:2;859:15;-1:-1:-1;;855:29:2;846:39;;;;887:4;842:50;;426:472;-1:-1:-1;;426:472:2:o;903:220::-;1052:2;1041:9;1034:21;1015:4;1072:45;1113:2;1102:9;1098:18;1090:6;1072:45;:::i;:::-;1064:53;903:220;-1:-1:-1;;;903:220:2:o;1128:317::-;1305:2;1294:9;1287:21;1268:4;1325:45;1366:2;1355:9;1351:18;1343:6;1325:45;:::i;:::-;1317:53;;1435:1;1431;1426:3;1422:11;1418:19;1410:6;1406:32;1401:2;1390:9;1386:18;1379:60;1128:317;;;;;:::o;1450:291::-;1627:2;1616:9;1609:21;1590:4;1647:45;1688:2;1677:9;1673:18;1665:6;1647:45;:::i;:::-;1639:53;;1728:6;1723:2;1712:9;1708:18;1701:34;1450:291;;;;;:::o",
+    "linkReferences": {}
+  },
+  "methodIdentifiers": {
+    "getTotalWaves()": "9a2cdc08",
+    "wave()": "6fe15b44"
+  },
+  "ast": {
+    "absolutePath": "contracts/WavePortal.sol",
+    "id": 47,
+    "exportedSymbols": {
+      "WavePortal": [
+        46
+      ],
+      "console": [
+        8110
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "40:403:0",
+    "nodes": [
+      {
+        "id": 1,
+        "nodeType": "PragmaDirective",
+        "src": "40:23:0",
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".4"
+        ]
+      },
+      {
+        "id": 2,
+        "nodeType": "ImportDirective",
+        "src": "65:29:0",
+        "absolutePath": "node_modules/hardhat/console.sol",
+        "file": "hardhat/console.sol",
+        "nameLocation": "-1:-1:-1",
+        "scope": 47,
+        "sourceUnit": 8111,
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "id": 46,
+        "nodeType": "ContractDefinition",
+        "src": "96:346:0",
+        "nodes": [
+          {
+            "id": 4,
+            "nodeType": "VariableDeclaration",
+            "src": "120:18:0",
+            "constant": false,
+            "mutability": "mutable",
+            "name": "totalWaves",
+            "nameLocation": "128:10:0",
+            "scope": 46,
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 3,
+              "name": "uint256",
+              "nodeType": "ElementaryTypeName",
+              "src": "120:7:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "id": 14,
+            "nodeType": "FunctionDefinition",
+            "src": "145:54:0",
+            "body": {
+              "id": 13,
+              "nodeType": "Block",
+              "src": "159:40:0",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "48656c6c6f20457468657265756d",
+                        "id": 10,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "177:16:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_5dbe7b4dfbf4dd3df915da98eaa461f0850170928709c3d402cba0ca272e01d9",
+                          "typeString": "literal_string \"Hello Ethereum\""
+                        },
+                        "value": "Hello Ethereum"
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_5dbe7b4dfbf4dd3df915da98eaa461f0850170928709c3d402cba0ca272e01d9",
+                          "typeString": "literal_string \"Hello Ethereum\""
+                        }
+                      ],
+                      "expression": {
+                        "id": 7,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8110,
+                        "src": "165:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$8110_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 9,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 641,
+                      "src": "165:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$__$",
+                        "typeString": "function (string memory) view"
+                      }
+                    },
+                    "id": 11,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "165:29:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 12,
+                  "nodeType": "ExpressionStatement",
+                  "src": "165:29:0"
+                }
+              ]
+            },
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "parameters": {
+              "id": 5,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "156:2:0"
+            },
+            "returnParameters": {
+              "id": 6,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "159:0:0"
+            },
+            "scope": 46,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 30,
+            "nodeType": "FunctionDefinition",
+            "src": "203:94:0",
+            "body": {
+              "id": 29,
+              "nodeType": "Block",
+              "src": "225:72:0",
+              "statements": [
+                {
+                  "expression": {
+                    "id": 19,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "id": 17,
+                      "name": "totalWaves",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 4,
+                      "src": "231:10:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "+=",
+                    "rightHandSide": {
+                      "hexValue": "31",
+                      "id": 18,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "number",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "245:1:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_rational_1_by_1",
+                        "typeString": "int_const 1"
+                      },
+                      "value": "1"
+                    },
+                    "src": "231:15:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "id": 20,
+                  "nodeType": "ExpressionStatement",
+                  "src": "231:15:0"
+                },
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "25732068617320776176656421",
+                        "id": 24,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "264:15:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_c151808a2b9f8e753f09566910e26cc7a898e279a3fa33e7598a07d6a8bae89d",
+                          "typeString": "literal_string \"%s has waved!\""
+                        },
+                        "value": "%s has waved!"
+                      },
+                      {
+                        "expression": {
+                          "id": 25,
+                          "name": "msg",
+                          "nodeType": "Identifier",
+                          "overloadedDeclarations": [],
+                          "referencedDeclaration": -15,
+                          "src": "281:3:0",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_magic_message",
+                            "typeString": "msg"
+                          }
+                        },
+                        "id": 26,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": false,
+                        "lValueRequested": false,
+                        "memberName": "sender",
+                        "nodeType": "MemberAccess",
+                        "src": "281:10:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_c151808a2b9f8e753f09566910e26cc7a898e279a3fa33e7598a07d6a8bae89d",
+                          "typeString": "literal_string \"%s has waved!\""
+                        },
+                        {
+                          "typeIdentifier": "t_address",
+                          "typeString": "address"
+                        }
+                      ],
+                      "expression": {
+                        "id": 21,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8110,
+                        "src": "252:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$8110_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 23,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 805,
+                      "src": "252:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_address_$returns$__$",
+                        "typeString": "function (string memory,address) view"
+                      }
+                    },
+                    "id": 27,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "252:40:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 28,
+                  "nodeType": "ExpressionStatement",
+                  "src": "252:40:0"
+                }
+              ]
+            },
+            "functionSelector": "6fe15b44",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "wave",
+            "nameLocation": "212:4:0",
+            "parameters": {
+              "id": 15,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "216:2:0"
+            },
+            "returnParameters": {
+              "id": 16,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "225:0:0"
+            },
+            "scope": 46,
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          },
+          {
+            "id": 45,
+            "nodeType": "FunctionDefinition",
+            "src": "301:139:0",
+            "body": {
+              "id": 44,
+              "nodeType": "Block",
+              "src": "356:84:0",
+              "statements": [
+                {
+                  "expression": {
+                    "arguments": [
+                      {
+                        "hexValue": "5765206861766520256420746f74616c20776176657321",
+                        "id": 38,
+                        "isConstant": false,
+                        "isLValue": false,
+                        "isPure": true,
+                        "kind": "string",
+                        "lValueRequested": false,
+                        "nodeType": "Literal",
+                        "src": "374:25:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_stringliteral_863ad3ce73bc5de36878d11a5464e7b17b05dede85c460be1aa71aebd4b304e3",
+                          "typeString": "literal_string \"We have %d total waves!\""
+                        },
+                        "value": "We have %d total waves!"
+                      },
+                      {
+                        "id": 39,
+                        "name": "totalWaves",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 4,
+                        "src": "401:10:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      }
+                    ],
+                    "expression": {
+                      "argumentTypes": [
+                        {
+                          "typeIdentifier": "t_stringliteral_863ad3ce73bc5de36878d11a5464e7b17b05dede85c460be1aa71aebd4b304e3",
+                          "typeString": "literal_string \"We have %d total waves!\""
+                        },
+                        {
+                          "typeIdentifier": "t_uint256",
+                          "typeString": "uint256"
+                        }
+                      ],
+                      "expression": {
+                        "id": 35,
+                        "name": "console",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 8110,
+                        "src": "362:7:0",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_contract$_console_$8110_$",
+                          "typeString": "type(library console)"
+                        }
+                      },
+                      "id": 37,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "memberName": "log",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": 754,
+                      "src": "362:11:0",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$_t_uint256_$returns$__$",
+                        "typeString": "function (string memory,uint256) view"
+                      }
+                    },
+                    "id": 40,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "kind": "functionCall",
+                    "lValueRequested": false,
+                    "names": [],
+                    "nodeType": "FunctionCall",
+                    "src": "362:50:0",
+                    "tryCall": false,
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_tuple$__$",
+                      "typeString": "tuple()"
+                    }
+                  },
+                  "id": 41,
+                  "nodeType": "ExpressionStatement",
+                  "src": "362:50:0"
+                },
+                {
+                  "expression": {
+                    "id": 42,
+                    "name": "totalWaves",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 4,
+                    "src": "425:10:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "functionReturnParameters": 34,
+                  "id": 43,
+                  "nodeType": "Return",
+                  "src": "418:17:0"
+                }
+              ]
+            },
+            "functionSelector": "9a2cdc08",
+            "implemented": true,
+            "kind": "function",
+            "modifiers": [],
+            "name": "getTotalWaves",
+            "nameLocation": "310:13:0",
+            "parameters": {
+              "id": 31,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "323:2:0"
+            },
+            "returnParameters": {
+              "id": 34,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 33,
+                  "mutability": "mutable",
+                  "name": "",
+                  "nameLocation": "-1:-1:-1",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 45,
+                  "src": "347:7:0",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 32,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "347:7:0",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "visibility": "internal"
+                }
+              ],
+              "src": "346:9:0"
+            },
+            "scope": 46,
+            "stateMutability": "view",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "WavePortal",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "linearizedBaseContracts": [
+          46
+        ],
+        "name": "WavePortal",
+        "nameLocation": "105:10:0",
+        "scope": 47,
+        "usedErrors": []
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 0
+}
